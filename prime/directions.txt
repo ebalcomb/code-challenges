@@ -1,0 +1,7 @@
+prime.py
+
+A command-line program to read one number from the keyboard, test to see if it's a prime, and print "yes" or "no" to the screen before exiting. You should handle errors gracefully (e.g. warn the user if a non-integer is entered, etc). The program needs to run quickly, and produce accurate results.
+
+prime_stdin.py
+
+A command-line program that reads 16-bit integers from stdin, prints "yes" or "no" depending on whether each number is a prime, and loops while it can still read more numbers from stdin. Numbers will be separated by whitespace, and there may be an infinite sequence of them (e.g. the input could be coming from some other program). Any input errors should cause warnings to be printed on stderr. The program needs to run quickly, and produce accurate results.
