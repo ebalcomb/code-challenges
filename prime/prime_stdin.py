@@ -1,4 +1,4 @@
-from sys import stdin
+from sys import stdin, stderr
 from math import sqrt
 
 def checkPrime():
@@ -27,6 +27,6 @@ def checkPrime():
 				else:
 					print "no"
 			except ValueError:
-				print "warning: \'%s\' not an integer" %n
+				stderr.write("\'%s\' not an integer\n" %n)
 
 checkPrime()

@@ -3,21 +3,24 @@ from math import sqrt
 
 
 def checkPrime(n):
+	prime = True
 	try:
 		n = int(n)
 		if n > 1:
 			for i in range(2, int(sqrt(n)+1)):
 				if n % i == 0:
-					return False
-			return True
+					prime = False
+			if prime == True:
+				print "yes"
+			else:
+				print "no"
 		else:
-			return False
+			print "no"
 	except ValueError:
-		return "warning: \'%s\' is not an integer" %n
+		print "warning: \'%s\' is not an integer" %n
 
 
-
-print checkPrime(argv[1])
+checkPrime(argv[1])
 
 
 
