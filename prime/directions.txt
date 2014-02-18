@@ -9,3 +9,7 @@ A command-line program that reads 16-bit integers from stdin, prints "yes" or "n
 prime_palindrome.py
 
 Determintes the largest prime palindrome under n and prints it to stdout
+
+prime_sum.py
+
+determines the sum of the first n prime numbers and prints to stdout

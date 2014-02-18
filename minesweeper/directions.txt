@@ -1,0 +1,3 @@
+Minesweeper game:
+
+Click to reveal how many adjacent mines there are. Mark all mines to win. Clicking on a mine ends the game.

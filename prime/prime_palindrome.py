@@ -1,6 +1,6 @@
 from math import sqrt
 
-def primePalindrome(n):
+def prime_palindrome(n):
 	for j in range(n, 0, -1):
 		if len(str(j)) > 1 and str(j) == str(j)[::-1]:
 			prime = True
