@@ -1,4 +1,4 @@
-prime.py
+prime.py/prime.js
 
 A command-line program to read one number from the keyboard, test to see if it's a prime, and print "yes" or "no" to the screen before exiting. You should handle errors gracefully (e.g. warn the user if a non-integer is entered, etc). The program needs to run quickly, and produce accurate results.
 
