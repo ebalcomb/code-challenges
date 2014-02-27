@@ -1,7 +1,7 @@
 from sys import stdin, stderr
 from math import sqrt
 
-def checkPrime():
+def check_prime():
 	while 1:
 	    try:
 	        line = stdin.readline()

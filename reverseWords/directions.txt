@@ -1,0 +1,15 @@
+reverse_words.py
+
+program that reverses the words of an input sentence and prints them to stdout
+
+input: file containing multiple sentences, one per line. could contain empty lines, which should be ignored.
+
+sample input: 
+
+Hello World
+We are friends
+
+sample output: 
+
+World Hello
+friends are we

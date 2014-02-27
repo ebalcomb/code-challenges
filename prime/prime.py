@@ -2,7 +2,7 @@ from sys import argv
 from math import sqrt
 
 
-def checkPrime(n):
+def check_prime(n):
 	prime = True
 	try:
 		n = int(n)
