@@ -10,3 +10,5 @@ def prime_palindrome(n):
 			if prime:
 				return j
 	return "no prime palindromes smaller than %s" %n
+
+print prime_palindrome(1000)
